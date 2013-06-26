@@ -155,5 +155,9 @@
 	"Using environment ie10": "Using environment ie10",
 	"Using environment ff": "Using environment ff",
 	"Using environment chrome": "Using environment chrome",
-	"Using environment phantom": "Using environment phantom"
+	"Using environment phantom": "Using environment phantom",
+	"Throttle concurrent test count": "Throttle concurrent test count",
+	"Using environment chimera": "Using environment chimera",
+	"Chimera browser is loading %s": "Chimera browser is loading %s",
+	"Using environment ghost": "Using environment ghost"
 }

@@ -37,10 +37,6 @@
 
   // Environments
   environments: {
-    phantomjs: {
-      uac: 'phantom',
-      binaryPath: ['../node_modules/phantomjs/']
-    },
     sauce: {
       uac: 'saucelabs',
       host: 'ondemand.saucelabs.com',
@@ -49,6 +45,12 @@
       platform: 'OS X 10.6',
       username: 'venusjs',
       accessKey: '0b0302b9-36ed-430d-8665-e9d84c8a42cf'
+    },
+    ghost: {
+      uac: 'GhostDriverUac',
+      binaryPath: ['../node_modules/phantomjs/'],
+      host: 'localhost',
+      port: '8910'
     }
   }
 }
