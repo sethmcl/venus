@@ -48,7 +48,11 @@
     },
     ghost: {
       uac: 'GhostDriverUac',
+<<<<<<< HEAD
       binaryPath: ['../node_modules/phantomjs/bin/phantomjs', '../bin/phantomjs'],
+=======
+      binaryPath: ['../node_modules/phantomjs/'],
+>>>>>>> 41c8cbb4e815c8ab4ed674b981175e445e815303
       host: 'localhost',
       port: '8910'
     }

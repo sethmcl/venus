@@ -46,8 +46,12 @@
     "chokidar"               : "0.6.2",
     "flavored-path"          : "0.0.8",
     "selenium-webdriver"     : "2.33.0",
+<<<<<<< HEAD
     "deferred"               : "0.6.5",
     "phantomjs"              : "1.9.1-0"
+=======
+    "deferred"               : "0.6.5"
+>>>>>>> 41c8cbb4e815c8ab4ed674b981175e445e815303
   },
   "devDependencies": {
     "mocha"             : "1.2.0",

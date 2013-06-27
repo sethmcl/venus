@@ -159,8 +159,12 @@
 	"Throttle concurrent test count": "Throttle concurrent test count",
 	"Using environment chimera": "Using environment chimera",
 	"Chimera browser is loading %s": "Chimera browser is loading %s",
+<<<<<<< HEAD
 	"Using environment ghost": "Using environment ghost",
 	"Using environment ie7": "Using environment ie7",
 	"Include test files with no Venus annotations (@venus-*)": "Include test files with no Venus annotations (@venus-*)",
 	"Sauce Connect Complete": "Sauce Connect Complete"
+=======
+	"Using environment ghost": "Using environment ghost"
+>>>>>>> 41c8cbb4e815c8ab4ed674b981175e445e815303
 }
