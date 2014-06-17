@@ -1,7 +1,7 @@
 module.exports = {
   plugins: {
-    'venus-unit': {},
-    'venus-http': {},
-    './asoneth': {}
+    /* 'venus-unit': {}, */
+    /* 'venus-http': {}, */
+    './examples/plugins/MyPlugin': {}
   }
 };
