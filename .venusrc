@@ -1,7 +1,11 @@
 module.exports = {
-  plugins: {
-    /* 'venus-unit': {}, */
-    /* 'venus-http': {}, */
-    './examples/plugins/MyPlugin': {}
+  'defaultPlugins': {
+    'venus-unit': {
+      tests: '*.js'
+    },
+
+    'venus-http': {
+      port: 6090
+    }
   }
 };

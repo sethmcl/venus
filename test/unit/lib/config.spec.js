@@ -1,5 +1,4 @@
-var v      = require('../../helpers');
-var Config = v.r('Config');
+var Config = v.lib('Config');
 
 describe('config', function () {
   var config;
@@ -8,16 +7,11 @@ describe('config', function () {
     config = new Config();
   });
 
-  it('should return config context', function (done) {
+  it('should return config context', function () {
     var testFile = v.path('fixtures', 'projects', 'project_a', 'test.spec.js');
 
-    config.ctx(testFile)
-      .then(function (ctx) {
-        v.assert.deepEqual(ctx.get('includeGroup'), ['normal']);
-        done();
-      })
-      .then(null, function (err) {
-        done(err);
-      });
+    var ctx = config.ctx(testFile);
+    debugger;
+    v.assert.deepEqual(ctx.get('includeGroup'), ['normal']);
   });
 });
