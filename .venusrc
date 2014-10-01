@@ -6,6 +6,10 @@ module.exports = {
 
     'venus-http': {
       port: 6090
+    },
+
+    'venus-browserify': {
+
     }
   }
 };
